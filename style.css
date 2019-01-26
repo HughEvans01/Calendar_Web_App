@@ -1,0 +1,24 @@
+* {
+  font-family: "Calibri", Calibri, monospace;
+  color: #000000;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+tr, td{
+  text-align: center;
+  height: 1.25em;
+  width: 2.25em;
+  font-size: 1.25em;
+}
+
+.month {
+  margin: auto;
+  height: 1em;
+  width: 1em;
+}
+
+.monthName {
+  font-size: 2.5em;
+  text-align: center;
+}
