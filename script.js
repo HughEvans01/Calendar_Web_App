@@ -59,7 +59,7 @@ function loadYear() {
         $("#" + i + " tr:last td:last").css({ "background-color": "lightgreen" });
       } else if (specialDays[i][j - 1] != "") {
         $("#" + i + " tr:last td:last").css({ "background-color": "orange" });
-      } else if (j < now.getDate() && i <= now.getMonth()) {
+      } else if ((j < now.getDate() && i == now.getMonth()) || i < now.getMonth()) {
         $("#" + i + " tr:last td:last").css({ "background-color": "grey" });
       } else {
         $("#" + i + " tr:last td:last").css({ "background-color": "lightgrey" });
